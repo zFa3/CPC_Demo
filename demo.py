@@ -12,7 +12,7 @@ memory = []
 # generate a response from google api
 async def generate(prompt):
 
-    client = genai.Client(api_key="AIzaSyBOjBGtGaFJurlpcEe4MwVqhAL5MZbG5wE")
+    client = genai.Client(api_key="API_KEY_HERE")
 
     response = await client.aio.models.generate_content(
         model="gemma-3-27b-it",
